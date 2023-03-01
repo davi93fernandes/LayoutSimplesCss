@@ -12,7 +12,7 @@ body{
     color: rgb(148, 185, 217);
     text-decoration: none;
     margin-right: 20px;
-    padding: 4px; 6px
+    padding: 4px 6px;
 }
 .menu__link:hover{
     background-color: azure;
@@ -22,9 +22,7 @@ body{
 main{
     padding: 10px 20px;
 }
-.artigo{
-    padding:
-}
+.artigo
 .artigo_cabecalho__titulo{
     padding: 10px;
     margin-top: 0px;
