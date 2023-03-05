@@ -7,16 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="pagContatos.css">
+    <link rel="stylesheet" href="pagPrincipal.css">
 </head>
-<header class="cabecalho">
-    <nav class="menu">
-        <a class="menu__link" href="#">Pagina Principal</a>
-        <a class="menu__link" href="Contatos.html">Contate-nos</a>
-    </nav>
-</header>
 
-<body> 
-
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <a class="menu__link" href="./index.html">Pagina Principal</a>
+            <a class="menu__link" href="#">Contate-nos</a>
+        </nav>
+    </header>
+    <div class="form">
+        <h1 class="titulo_form">Formulário de contato</h1>
+        <form action class="" method="post">
+            <div class="form_corpo">
+                <div class="nome"> Nome:</div>
+                <label for="nome"></label>
+                <input type="text" name="nome" id="">
+                <div class="nome"> E-mail:</div>
+                <label for="emai"></label>
+                <input type="text" name="email" id="">
+                <div class="nome"> Assunto:</div>
+                <label for="assunto"></label>
+                <input type="text" name="assunto" id="">
+                <div class="nome"> Mensagem:</div>
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button class="button_form">Enviar</button>
+        </form>
+    </div>
 </body>
 
 </html>
